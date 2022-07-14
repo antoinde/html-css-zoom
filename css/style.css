@@ -58,7 +58,10 @@ main{
     margin: 3px;
 }
 
-.card img{max-width: 100%;} /*Adattami le immagini dentro le card*/
+.card img{  /*Adattami le immagini dentro le card*/
+    width: 100%;
+    height: 100%;
+} 
 
 /* /MAIN ****************************************************/
 
