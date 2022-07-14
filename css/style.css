@@ -24,6 +24,7 @@ header{
     /* flex_prop*/
     justify-content: end;
     column-gap: 2px;
+    box-shadow: 0px 3px 0px 1px rgba(255,255,255,0.12);
 }
 header span, .etichetta{
     background-color: #4a4a4a;
@@ -83,6 +84,26 @@ footer{
     width: 100%;
     position: fixed;
     bottom: 0px;
+    padding: 10px;
+
+    justify-content: space-between;
+    color: white;
+}
+footer > div{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+footer i{font-size: 2.3rem;}
+.button1{margin: 0px 5px;}
+
+
+.footer_left, .footer_center, .footer_right{ border: 1px solid white;}
+
+.footer_right{
+    color: red;
+    font-weight: 900;
+    font-size: 1.3rem;
 }
 /* /FOOTER */
 
