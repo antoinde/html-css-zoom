@@ -7,14 +7,31 @@
 /* /LAYOUT RESET */
 
 /* UTILITYES */
+.flex{display: flex;}
 /* /UTILITYES */
 
-/* HEADER */
+/* HEADER *************************************************/
 header{
+    height: 50px;
     background-color: black;
     color: white;
+    position: fixed;
+    width: 100%;
+    padding: 2px;
+    /* flex_prop*/
+    justify-content: end;
+    column-gap: 2px;
 }
-/* /HEADER */
+header span{
+    background-color: #4a4a4a;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 5px;
+    padding: 0 3px;
+}
+
+
+/* /HEADER *************************************************/
 
 /* MAIN */
 main{}
