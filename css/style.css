@@ -39,7 +39,7 @@ header span, .etichetta{
 /* MAIN ****************************************************/
 main{
     margin-top: 8vh;
-    background-color: grey;
+    background-color: black;
     height: 80vh;
     overflow-y: auto; /* Solo se main contiene più cose appare la scroll-bar */
 }
