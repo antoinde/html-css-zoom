@@ -10,7 +10,10 @@
 /* /UTILITYES */
 
 /* HEADER */
-header{}
+header{
+    background-color: black;
+    color: white;
+}
 /* /HEADER */
 
 /* MAIN */
