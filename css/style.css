@@ -8,11 +8,13 @@
 
 /* UTILITYES */
 .flex{display: flex;}
+.column{flex-direction: column;}
+.wrap{flex-wrap: wrap;}
 /* /UTILITYES */
 
 /* HEADER *************************************************/
 header{
-    height: 50px;
+    height: 8vh;
     background-color: black;
     color: white;
     position: fixed;
@@ -34,10 +36,25 @@ header span{
 /* /HEADER *************************************************/
 
 /* MAIN */
-main{}
+main{
+    margin-top: 8vh;
+    background-color: grey;
+    height: 80vh;
+    overflow-y: auto; /* Solo se main contiene più cose appare la scroll-bar */
+}
+.container_main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 /* /MAIN */
 
 /* FOOTER */
-footer{}
+footer{
+    background-color: #222222;
+    height: 12vh;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+}
 /* /FOOTER */
 
