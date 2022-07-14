@@ -43,9 +43,23 @@ main{
     overflow-y: auto; /* Solo se main contiene più cose appare la scroll-bar */
 }
 .container_main{
+    /*debug*/
     max-width: 1200px;
     margin: 0 auto;
+    /*/debug*/
 }
+
+.card{
+    background-color: brown;
+    border: 1px solid black;
+    width: calc(100% / 7 - 6px);
+    height: 100px;
+    padding: 3px;
+    margin: 3px;
+}
+
+.card img{max-width: 100%;} /*Adattami le immagini dentro le card*/
+
 /* /MAIN ****************************************************/
 
 /* FOOTER */
