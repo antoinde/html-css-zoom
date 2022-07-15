@@ -7,6 +7,7 @@
 /* /LAYOUT RESET */
 
 /* UTILITYES */
+.color_green{    color: #4bc800;  } /* GREEN COLOR */
 .flex{display: flex;}
 .column{flex-direction: column;}
 .wrap{flex-wrap: wrap;}
@@ -77,7 +78,7 @@ main{
 
 /* /MAIN ****************************************************/
 
-/* FOOTER */
+/* FOOTER ****************************************************/
 footer{
     background-color: #222222;
     height: 12vh;
@@ -85,11 +86,11 @@ footer{
     position: fixed;
     bottom: 0px;
     padding: 14px;
-    
-
     justify-content: space-between;
     color: white;
 }
+
+/* button-area -------------------------------*/
 button{
     background-color: #393939;
     color: white;
@@ -97,28 +98,21 @@ button{
     border: 0;
     border-radius: 4px;
 }
-
-button.angle-up {
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-}
-
-
 button i{
     font-size: 2.0rem;
     margin-bottom: 3px;
 }
-.angle-up i{
-    font-size: 18px;
-}
 
-.color_green{
-    color: #4bc800;
+/* BOTTONE angle-up  **************/
+button.angle-up {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
+.angle-up i{    font-size: 18px;  }  
+/* /BOTTONE angle-up  *************/
 
-.exit_action button{
-    color: red;
+.exit_action button{    color: red;  } /* BOTTONE A DESTRA */
+/* button-area --------------------------------*/
 
-}
-/* /FOOTER */
+/* /FOOTER ************************************************/
 
