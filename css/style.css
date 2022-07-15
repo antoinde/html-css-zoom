@@ -84,26 +84,41 @@ footer{
     width: 100%;
     position: fixed;
     bottom: 0px;
-    padding: 10px;
+    padding: 14px;
+    
 
     justify-content: space-between;
     color: white;
 }
-footer > div{
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+button{
+    background-color: #393939;
+    color: white;
+    padding: 0px 5px;
+    border: 0;
+    border-radius: 4px;
 }
-footer i{font-size: 2.3rem;}
-.button1{margin: 0px 5px;}
+
+button.angle-up {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
 
 
-.footer_left, .footer_center, .footer_right{ border: 1px solid white;}
+button i{
+    font-size: 2.0rem;
+    margin-bottom: 3px;
+}
+.angle-up i{
+    font-size: 18px;
+}
 
-.footer_right{
+.color_green{
+    color: #4bc800;
+}
+
+.exit_action button{
     color: red;
-    font-weight: 900;
-    font-size: 1.3rem;
+
 }
 /* /FOOTER */
 
